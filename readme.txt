@@ -38,12 +38,16 @@ git checkout --test.txt恢复文件到最新版本
 
 创建github
 
-建立关联：git remote add origin https://github.com/Jmy525/git.git
+建立关联：git remote add origin git@github.com:Jmy525/gitstudy.git
 第一次推送：git push -u origin master
 以后提交：git push origin master
 ---------------------------------
-		
 
+从远程库克隆一个本地库
+git clone https://github.com/Jmy525/git-study.git
+		
+test
+test
 
 
 
