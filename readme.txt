@@ -2,6 +2,7 @@ git is a version control system
 git is a free software 
 it's my life my decision
 i want you with provision
+
 分布式(区别集中式)版本控制系统，配置每个机器的家门
 git config --global user.name "name"
 git config --global user,email "email@example.com"
@@ -25,6 +26,24 @@ git diff   查看仓库中和文件中不同的地方
 git log查看历史提交记录
 git回退版本，下面的HEAD^表示上1个。取值可以是HEAD~100
 git reset --hard HEAD^   
+git reset --hard 6570...回退到对应的版本
+git reflog  记录历史中每次命令
+
+git checkout 撤销修改
+
+git rm test.txt  删除文件
+git commit       确认删除
+git checkout --test.txt恢复文件到最新版本
+
+
+创建github
+
+建立关联：git remote add origin https://github.com/Jmy525/git.git
+第一次推送：git push -u origin master
+以后提交：git push origin master
+---------------------------------
+		
+
 
 
 
