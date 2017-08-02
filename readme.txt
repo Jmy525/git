@@ -22,3 +22,13 @@ git diff   查看仓库中和文件中不同的地方
 再次提交继续调用add 和commit
 
 
+git log查看历史提交记录
+git回退版本，下面的HEAD^表示上1个。取值可以是HEAD~100
+git reset --hard HEAD^   
+
+
+
+
+
+
+
